@@ -22,7 +22,7 @@ Latency Scaling under Optimized vLLM Serving
 ![image](images/latency_scaling.png)
 
 TFFT Scaling
-![image](images/tfft_scaling.png)
+![image](images/ttft_scaling.png)
 
 Benchmark Performance by Task 
 ![image](images/task_breakdown.png)
