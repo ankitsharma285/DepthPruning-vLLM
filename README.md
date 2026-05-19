@@ -14,13 +14,17 @@ Teacher, pruned, and distilled student models based on the Qwen2.5 model were ev
 ## Results 
 Accuracy vs Compression Pipeline 
 ![image](images/accuracy_tradeoff.png)
-System Throughput Scaling with Concurrency
+
+System Throughput Scaling with Concurrency 
 ![image](images/throughput_scaling.png)
-Latency Scaling under Optimized vLLM Serving
+
+Latency Scaling under Optimized vLLM Serving 
 ![image](images/latency_scaling.png)
-TTFT Scaling
+
+TFFT Scaling
 ![image](images/tfft_scaling.png)
-Benchmark Performance by Task
+
+Benchmark Performance by Task 
 ![image](images/task_breakdown.png)
 
 ## Key - Findings
