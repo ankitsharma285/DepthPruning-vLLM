@@ -21,10 +21,10 @@ System Throughput Scaling with Concurrency
 Latency Scaling under Optimized vLLM Serving 
 ![image](images/latency_scaling.png)
 
-TFFT Scaling
+TFFT Scaling 
 ![image](images/ttft_scaling.png)
 
-Benchmark Performance by Task 
+Benchmark Performance by Task
 ![image](images/task_breakdown.png)
 
 ## Key - Findings
