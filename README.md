@@ -13,15 +13,16 @@ Teacher, pruned, and distilled student models based on the Qwen2.5 model were ev
 
 ## Results 
 Accuracy vs Compression Pipeline 
-![image][images/accuracy_tradeoff.png]
+![image](images/accuracy_tradeoff.png)
 System Throughput Scaling with Concurrency
-![image][images/throughput_scaling.png]
+![image](images/throughput_scaling.png)
 Latency Scaling under Optimized vLLM Serving
-![image][images/latency_scaling.png]
+![image](images/latency_scaling.png)
 TTFT Scaling
-![image][images/tfft_scaling.png]
+![image](images/tfft_scaling.png)
 Benchmark Performance by Task
-![image][images/task_breakdown.png]
+![image](images/task_breakdown.png)
+
 ## Key - Findings
 1. Structured depth pruning reduced the Qwen2.5 base model transformer architecture from 24 to 19 layers, achieving a 28.2% parameter reduction while maintaining strong downstream reasoning performance.
 2. Direct structural pruning caused benchmark accuracy to decrease from 65.0% to 54.5% average accuracy, highlighting the sensitivity of transformer reasoning capability to aggressive layer removal.
