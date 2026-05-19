@@ -21,11 +21,11 @@ System Throughput Scaling with Concurrency
 Latency Scaling under Optimized vLLM Serving 
 ![image](images/latency_scaling.png)
 
-TFFT Scaling 
-![image](images/ttft_scaling.png)
-
 Benchmark Performance by Task
 ![image](images/task_breakdown.png)
+
+TFFT Scaling 
+![image](images/ttft_scaling.png)
 
 ## Key - Findings
 1. Structured depth pruning reduced the Qwen2.5 base model transformer architecture from 24 to 19 layers, achieving a 28.2% parameter reduction while maintaining strong downstream reasoning performance.
